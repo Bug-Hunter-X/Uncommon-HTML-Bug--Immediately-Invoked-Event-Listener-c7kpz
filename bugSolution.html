@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is initially visible.
+  </div>
+
+  <script>
+    //Correct way to add an event listener
+    document.getElementById('myDiv').addEventListener('click', changeText);
+
+    function changeText() {
+      document.getElementById('myDiv').innerHTML = "Text changed!";
+    }
+  </script>
+</body>
+</html>
