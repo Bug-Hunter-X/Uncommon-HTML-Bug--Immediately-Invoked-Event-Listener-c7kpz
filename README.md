@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in JavaScript event listeners within an HTML context.  The bug lies in how the `addEventListener` method is used, leading to unintended immediate execution of the event handler rather than the expected event-driven behavior. The solution showcases the correct implementation.
